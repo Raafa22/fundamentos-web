@@ -1,0 +1,52 @@
+/*Estilos da pagina index.html*/
+.center{
+    text-align: center;
+    
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+.container{
+    display: flex;
+    flex-flow: row;/*mover imagem na direita ao lado do texto,lembrando precisa das div para funcionar*/
+    justify-content:center ; /*centralizar contéudo , pode mover para esquerda(flex-star) e direita(flex-end) alinhamento horizontal */
+    align-items:center ;  /*alinhamento vertical */
+       
+}
+
+#menu li{
+    display: inline;/*icones menu na horizontal*/
+    padding: 15px; /*espaçamento dentro do elemento*/
+    
+}
+
+#menu li a{
+    text-decoration: none;/*sem decoração no texto, retira o sublinhado*/
+    color: black;
+}
+
+#menu li a:hover{/*mouse passar por cima fica cinza*/
+    color: grey;
+    font-size: 20px;
+}
+
+.p-30{/*espaço interno 30 pixel*/
+    padding: 30px;
+}
+
+.br-50{ 
+    border-radius: 50%; /*arredonda imagem*/
+}
+
+.wh-300{    /*mexe alt e larg. da  imagem*/
+    width: 300px;
+    height: 300px;
+}
+
+
+/*Estilos da pagina index.html*/
+
